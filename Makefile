@@ -18,8 +18,8 @@ CPPFLAGS ?=
 CC ?= gcc
 CXX ?= g++
 AR ?= ar
-CFLAGS ?= -g -O2 -fPIC
-CXXFLAGS ?= -g -O2 -std=c++11 -fPIC
+CFLAGS ?= -O3 -fPIC
+CXXFLAGS ?= -O3 -std=c++11 -fPIC
 LDFLAGS ?=
 LDLIBS ?=
 ARFLAGS ?= rcs
